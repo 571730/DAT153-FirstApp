@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">FirstApp</string>
+    <string name="app_name">Cat party</string>
     <string name="edit_message">Enter URL</string>
     <string name="button_send">GO</string>
     <string name="getCat">Show me a cat!</string>
     <string name="getAnotherCat">Show me another cat!</string>
+    <array name="stringArr">
+        <item>Hey</item>
+        <item>you</item>
+        <item>human</item>
+    </array>
+    <string name="toast">Show toast</string>
 </resources>

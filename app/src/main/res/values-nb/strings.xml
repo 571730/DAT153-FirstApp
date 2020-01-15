@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kattefest</string>
+    <string name="button_send">GÅ</string>
+    <string name="edit_message">Skriv inn URL</string>
+    <string name="getAnotherCat">Vis meg enda en katt!</string>
+    <string name="getCat">Vis meg en katt!</string>
+    <array name="stringArr">
+        <item>Hei</item>
+        <item>på</item>
+        <item>deg!</item>
+    </array>
+    <string name="toast">Vis toast</string>
+</resources>

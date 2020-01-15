@@ -8,6 +8,7 @@ import android.view.View
 import android.webkit.WebView
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 const val EXTRA_MESSAGE = "com.example.firstapp.MESSAGE"
@@ -40,5 +41,12 @@ class MainActivity : AppCompatActivity() {
         catView.clearCache(true)
         catView.loadUrl("https://cataas.com/cat/gif")
         Log.i("showCatClick", "Clicked showCatButton")
+    }
+
+    fun showToast(view: View) {
+        val array = resources.getStringArray(R.array.stringArr)
+        array.forEach {
+            Toast.makeText(applicationContext, it, Toast.LENGTH_SHORT).show()
+        }
     }
 }
