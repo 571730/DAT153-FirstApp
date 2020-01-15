@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
         val catView = findViewById<WebView>(R.id.catView)
         catView.clearCache(true)
         catView.loadUrl("https://cataas.com/cat/gif")
-        Log.i("showCatClick", "Clicked showCatButton")
     }
 
     fun showToast(view: View) {
